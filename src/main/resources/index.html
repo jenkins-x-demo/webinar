@@ -1,0 +1,60 @@
+<html>
+<head>
+<style>
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+table {
+    width:30%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 3px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#t01 th {
+    background-color: blue;
+    color: white;
+}
+</style>
+</head>
+<div class="header">
+  <img src="jenkins-x.png" alt="logo" />
+  <font color='red'>
+  <h1>Jenkins-X</h1>
+  </font>
+</div>
+
+<body>
+<br><br><br>
+<table id="t01">
+  <tr>
+    <th>Application Type</th>
+    <th>Version</th> 
+  </tr>
+  <tr>
+    <td>Spring Boot</td>
+    <td>VERSION</td>
+  </tr>
+</table>
+
+</body>
+</html>
